@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Donor</title>
+    <link href="4.png" rel="icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+    <link rel="stylesheet" href="Donor.css">
+    <style>
+        * {
+            margin: 0px;
+            box-sizing: border-box;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="head">
+        <img id="icon"
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRES3iV003kCbG_MMRs4KglFDKAgl9GxdLAug&usqp=CAU"
+            alt="">
+        <a class="login" href="SignUp.html">Sign Up</a>
+        <a class="login" href="Donorlogin.html">Login</a>
+    </div>
+    <div id="head2">
+        <img src="donor1.png" alt="">
+        <p id="p"><b>| Lit The Lives</b></p>
+        <div id="line"></div>
+        <div id="line1"></div>
+        <div id="head3">
+            <a href="Donor.html"
+                style="text-decoration: none;font-size: 20px;font-family: sans-serif;color: black;margin-top: -1%;position: absolute;">
+                <p id="hom">Home</p>
+            </a>
+            <select name="" class="col2">
+                <option value="">Donate</option>
+                <option value="">Donate Blood</option>
+                <option value="">Health history questionnaire</option>
+                <option value="">Book an appointment</option>
+                <option value="">Locations</option>
+            </select>
+            <select name="" class="col1">
+                <option value="">Learn</option>
+                <option value="">Impacts of donation</option>
+                <option value="">Blood Groups</option>
+                <option value="">Donation Process</option>
+                <option value="">Scientific Research</option>
+                <option value="">Precautions</option>
+
+            </select>
+            <!-- <select name="" class="col2">
+                <option value="">Eligibility</option>
+                <option value="">Basic Requirements</option>
+                <option value="">Additional Information</option>
+                <option value="">Eligibity requirements</option>
+            </select> -->
+            <select name="" id="col4">
+                <option value="">Looking for Blood</option>
+                <option value="">Computer Science & Engineering</option>
+                <option value="">CSE - AI & ML</option>
+                <option value="">CSE - Data Sciencd</option>
+                <option value="">CSE - Cyber Security</option>
+            </select>
+            <select name="" id="col5">
+                <option value="">Want to Donate Blood</option>
+                <option value="">Blood Donation Camps</option>
+                <option value="">About Blood donation</option>
+                <option value="">Donor Registration</option>
+                <option value="">Login </option>
+            </select>
+            <select name="" class="col5">
+                <option value="">Host A Blood Drive</option>
+                <option value="">Learn about hosting</option>
+                <option value="">Apply to host a blood drive</option>
+                <option value="">Manage your blood drive</option>
+            </select>
+            <select name="" id="col2">
+                <option value="">About Us</option>
+                <option value="">Learn More</option>
+                <option value="">Why Blood donation</option>
+            </select>
+        </div>
+    </div>
+    <div
+        style="width:102%;height: 700px;border: none;margin-left: -2%;margin-top: 0.2%;background-image: linear-gradient(90deg,rgb(219, 102, 102),rgb(87, 73, 184));">
+        <form action="">
+            <fieldset style="width:30%;margin-left: 35%;border: none;">
+                <legend style="text-align: center;padding-top: 20px;font-family: sans-serif;"><b>Book A Sloat</b></legend><br>
+                <lable for="fname" style="color: white;font-family: sans-serif;">First Name:</lable>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <input type="text" id="fname" placeholder="eg.Navya" required style="height:30px; width:200px;font-family: sans-serif;" >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <br><br>
+                <lable for="lname" style="color: white;font-family: sans-serif;">Last Name:</lable>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <input type="text" id="mname" style="height:30px; width:200px; font-family: sans-serif;">&nbsp;&nbsp;&nbsp;&nbsp;
+               <br><br>
+               <lable for="dob" style="color: white;font-family: sans-serif;">Date of Birth:</lable>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <input type="datetime-local" id="dob" style="height:30px; width:200px;font-family: sans-serif;">&nbsp;&nbsp;&nbsp;&nbsp;
+                <br><br>
+                <lable for="phno" style="color: white;font-family: sans-serif;">Phone Number:</lable>&nbsp;&nbsp;&nbsp;&nbsp;
+                <input type="number" id="phno" style="height:30px; width:200px; font-family: sans-serif;">&nbsp;&nbsp;
+                <br><br>
+                
+                <lable for="gender" style="font-family: sans-serif;color: white;">Gender:</lable>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <input type="radio" id="gender" name="gender" value="MALE" >Male&nbsp;&nbsp;&nbsp;&nbsp;
+                <input type="radio" id="gender" name="gender" value="FEMALE">Female&nbsp;&nbsp;&nbsp;&nbsp;
+                <input type="radio" id="gender" name="gender" value="OTHERS">Others&nbsp;&nbsp;&nbsp;&nbsp;
+                <br><br>
+                <lable for="add" style="font-family: sans-serif;color:white">Location:</lable>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <textarea name="" id="add" cols="24" rows="2"></textarea>
+                <br><br><br>
+                <lable for="gender" style="font-family: sans-serif;color:white">Blood Group: </lable>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <input type="radio" id="gender" name="gender" value="">&nbsp;A+&nbsp;&nbsp;&nbsp;&nbsp;
+                <input type="radio" id="gender" name="gender" value="">&nbsp;AB+&nbsp;&nbsp;&nbsp;&nbsp;
+                <input type="radio" id="gender" name="gender" value="">&nbsp;AB-&nbsp;&nbsp;&nbsp;&nbsp;
+                <input type="radio" id="gender" name="gender" value="">&nbsp;O+&nbsp;&nbsp;&nbsp;&nbsp;
+                <input type="radio" id="gender" name="gender" value="">&nbsp;O-&nbsp;&nbsp;&nbsp;&nbsp;
+                <br><br><br>
+                <lable for="phno"style="color: white;font-family: sans-serif;">Date & Time:</lable>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <input type="datetime" id="phno" style="height:30px; width:200px; font-family: sans-serif;">&nbsp;&nbsp;
+                <br><br>
+                </fieldset>
+                <center>
+                <a href="Donor.html"><input style="text-align: center;background-color: rgb(203, 47, 78) ;color:white;width:15%;height: 40px;border: none;border-radius: 10px;" type="submit" value="BOOK NOW"></a>
+                <a href="Donor.html"><input style="text-align: center;background-color: rgb(203, 47, 78) ;color:white;width:15%;height: 40px;border: none;border-radius: 10px;" type="reset" value="RESET"></a>
+            </center>
+        </form>
+        <div
+        style="width: 100%;height: 200px;background-color: rgb(7, 7, 61);margin-top: 10%;margin-left: -0.1%;border-radius: 20px 20px 0px 0px ;">
+        <img style="margin-left: 10%;margin-top: 0.5%;border-radius: 50px;width:8%" src="bluelogo.jpeg" alt="">
+        <p id="p1"><b>| Lit The Lives</b></p>
+        <p style="margin-left: 84%;color:white;margin-top: -4%;font-family: sans-serif;font-size: large;">Contact Us
+        </p>
+        <a href="#"><input id="db" type="button" value="080 - 41280009"></a>
+        <a href=""
+            style="margin-left: 45%;margin-top: 1.5%;position: absolute;color:white;text-decoration: none;font-family: sans-serif;font-size: 17px;">Terms</a>
+        <a href=""
+            style="margin-left: 50%;margin-top: 1.6%;position: absolute;color:white;text-decoration: none;font-family: sans-serif;font-size: 17px;">About</a>
+        <a href=""
+            style="margin-left: 55%;margin-top: 1.6%;position: absolute;color:white;text-decoration: none;font-family: sans-serif;font-size: 17px;">Privacy</a>
+
+    </div>
+    
+    <hr style="margin-top: -5%;width:100%;margin-left: -1%;border:1px solid rgb(31, 33, 88)">
+    <div style="width:30%;height: 30px;margin-left: 41%;margin-top: 14px;">
+        <a class="icons" href="https://www.facebook.com/GlobalQuestTech"> <i class="fa fa-facebook-square"
+                style="font-size:30px;color:white;"></i></a>
+        <a class="icons" href="https://www.instagram.com/svcolleges/"> <i class="fa fa-instagram"
+                style="font-size:30px;color:white;margin-left: -5%;"></i></a>
+        <a class="icons" href="https://www.linkedin.com/school/sri-venkateswara-college-of-engineering-tirupati/"> <i
+                class="fa fa-youtube-play" style="font-size:30px;color:white;margin-left: -5%;"></i></a>
+        <a class="icons" href="https://www.linkedin.com/school/sri-venkateswara-college-of-engineering-tirupati/"><i
+                class="fa fa-linkedin-square" style="font-size:30px;color:white;margin-left: -5%;"></i></a>
+        <a class="icons" href="https://twitter.com/i/flow/login?redirect_after_login=%2FSVCE_Tirupati"><i
+                class="fa fa-twitter-square" style="font-size:30px;color:white;margin-left: -5%;"></i> </a>
+    </div>
+
+
+
+</body>
+
+</html>
